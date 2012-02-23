@@ -6,7 +6,7 @@ version = '1.0'
 
 setup(name='collective.caching.hostname',
       version=version,
-      description="Hostname caching for Plone",
+      description="Hostname based blacklist caching operations for Plone",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
