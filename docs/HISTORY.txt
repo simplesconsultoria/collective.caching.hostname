@@ -1,7 +1,7 @@
 Changelog
 ----------
 
-1.0dev (unreleased)
+0.5 (2012-02-23)
 ^^^^^^^^^^^^^^^^^^^
 
  *  Package created using templer
