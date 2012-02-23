@@ -1,0 +1,49 @@
+# Andre Nogueira <andre@simplesconsultoria.com.br>,2010
+msgid ""
+msgstr ""
+"Project-Id-Version: plone.app.caching\n"
+"POT-Creation-Date: 2011-12-18 14:48+0000\n"
+"PO-Revision-Date: 2011-11-30 08:56-0300\n"
+"Last-Translator: Andre Nogueira <andre@simplesconsultoria.com.br>\n"
+"Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: pt-br\n"
+"Language-Name: Português do Brasil\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.caching.hostname\n"
+
+#: collective/caching/hostname/operations/default.py:143
+msgid "Cache in browser and proxy (default: 24 hrs). Caution: Only use for stable resources that never change without changing their URL, or resources for which temporary staleness is not critical."
+msgstr "Cache no navegador e no proxy (padrão: 24h). Cuidado: Apenas utilize para recursos que nunca são atualizados sem alteração de sua URL ou com recursos que não seja crítico em sua "
+
+#: collective/caching/hostname/operations/default.py:113
+msgid "Cache in browser but expire immediately (same as 'weak caching'), and cache in proxy (default: 24 hrs). Use a purgable caching reverse proxy for best results. Caution: If proxy cannot be purged, or cannot be configured to remove the 's-maxage' token from the response, then stale responses might be seen until the cached entry expires. "
+msgstr "Cache no navegador com expiração imediata (o mesmo que 'cacheamento fraco'), e cache no servidor proxy (padrão:24h). Utilize um servidor de proxy que aceite Purge para melhor resultado. Cuidado: Caso o proxy não suporte este recurso ou não possa ser configurado para remover o cabeçalho 's-maxage' da resposta, o conteúdo entregue poderá ficar desatualizado até que o cache expire."
+
+#: collective/caching/hostname/operations/default.py:83
+msgid "Cache in browser but expire immediately and enable 304 responses on subsequent requests. 304's require configuration of the 'Last-modified' and/or 'ETags' settings. If Last-Modified header is insufficient to ensure freshness, turn on ETag checking by listing each ETag components that should be used to to construct the ETag header. To also cache public responses in Zope memory, set 'RAM cache' to True. "
+msgstr "Cache no navegador mas com expiração imediata e suporte a respostas 304 habilitado para requisições seguintes. Os 304s requerem configuração do cabeçalho 'Last-Modified' e/ou as configurações de 'ETags'. Caso o Last-Modified for insuficiente como garantia de atualidade, habilite as ETags clicando em cada um dos componentes que devem ser utilizados para a criação do cabeçalho. Para, também, cachear as respostas em memória habilite a opção \"Cache RAM\"."
+
+#: collective/caching/hostname/operations/default.py:40
+msgid "Generic caching w/ hostname support"
+msgstr "Cache com suporte a exclusão por hostname"
+
+#: collective/caching/hostname/operations/default.py:112
+msgid "Moderate caching w/ hostname support"
+msgstr "Cache Moderado (exclusão por hostname)"
+
+#: collective/caching/hostname/operations/default.py:142
+msgid "Strong caching w/ hostname support"
+msgstr "Cache Agressivo (exclusão por hostname)"
+
+#: collective/caching/hostname/operations/default.py:41
+msgid "Through this operation, all standard caching functions can be performed via various combinations of the optional parameter settings. For most cases, it's probably easier to use one of the other simpler operations (Strong caching, Moderate caching, Weak caching, or No caching)."
+msgstr "Através desta operação, todas as funcionalidades de cacheamento podem ser realizadas com várias combinações dos parâmetros opcionais. Para a maior parte dos casos, provavelmente é mais fácil utilizar uma das operações mais simples (Cache agressivo, Cache moderado, Cache fraco ou Sem cache)."
+
+#: collective/caching/hostname/operations/default.py:82
+msgid "Weak caching w/ hostname support"
+msgstr "Cache Fraco (exclusão por hostname)"
+
